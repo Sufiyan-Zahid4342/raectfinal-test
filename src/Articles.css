@@ -5,7 +5,8 @@
   }
   
   .Articles img {
-    display: block;
+    display: inline;height: 50px;
+    width: 50px;
     margin: 0 auto;
     align-self: center;
   }
@@ -17,7 +18,7 @@
   }
   
   .Articles2 img,.Articles3 img {
-    display: block;
+    display: inline;
     margin: 0 auto;
     align-self: center;
   }
@@ -25,4 +26,11 @@
   button {
     margin: 20px auto;
     display: block;
+  }
+  .Articles a{
+    text-decoration: none;
+    /* background-color: rgb(68, 219, 68); */
+  color: black;
+  /* display: flex; */
+  
   }

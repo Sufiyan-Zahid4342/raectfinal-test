@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './navbar'; // Capitalized to follow the convention for components
+import Navbar from './navbar'; 
 import Articles from './Articles';
 import Main from './Main';
-import Mother from './mother';
+
+
+import Mother from './Mother';
 
 const App = () => {
   return (

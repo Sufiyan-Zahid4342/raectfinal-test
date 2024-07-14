@@ -1,0 +1,34 @@
+.mother {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    max-width: 800px; 
+    margin: 40px auto; 
+  }
+  
+  .mother img {
+    max-width: 100%; 
+    height: auto;
+    margin: 20px; 
+  }
+  
+  .mother a {
+    margin: 10px;
+  }
+  
+  .mother h3 {
+    margin-bottom: 10px; 
+  }
+  
+  .mother p {
+    margin-bottom: 20px;
+  }
+  
+ 
+  @media (max-width: 600px) {
+   .mother {
+      max-width: 90%;  
+    }
+  }
