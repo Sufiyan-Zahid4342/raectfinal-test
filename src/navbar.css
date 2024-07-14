@@ -1,0 +1,23 @@
+.navbar{
+    background-color: rgb(41, 183, 226);
+    display: block;
+  
+}
+.navbar h1{
+  margin:10px;
+  width:100px;
+  height:200px;
+  color:white;
+}
+.navbar button{
+
+    margin:10px;
+color: black;
+padding: 10px;
+}
+.navbar img{
+    justify-items: end;
+    margin-right:20px ;
+    margin-top: 30px;
+    border-color: blue;
+}
