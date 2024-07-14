@@ -1,0 +1,28 @@
+.Articles {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .Articles img {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+  }
+  
+  .Articles2,.Articles3 {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Articles2 img,.Articles3 img {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+  }
+  
+  button {
+    margin: 20px auto;
+    display: block;
+  }

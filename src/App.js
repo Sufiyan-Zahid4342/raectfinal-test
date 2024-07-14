@@ -1,25 +1,21 @@
 import React from 'react';
-import { Router, Routes, Route } from 'react-router-dom';
-import navbar from './navbar'
-import { Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './navbar'; // Capitalized to follow the convention for components
 import Articles from './Articles';
-import main from './main';
-import mother from './mother';
+import Main from './Main';
+import Mother from './mother';
 
 const App = () => {
-  
-  < navbar  />
   return (
-    <Routes>
-      <Route path="/sign in to continue" element={<Articles />} />
-    </Routes>
-
-
-
-    // <div>
-    //   <Hello name="John Doe" />
-    // </div>
-
+    <BrowserRouter>
+      <Navbar />
+      <Main />
+      <Routes>
+        <Route exact path="/Articles" element={<Articles />} />
+        {/* <Route exact path="/main" element={<Main />} />
+        <Route exact path="/mother" element={<Mother />} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 };
 
