@@ -6,16 +6,18 @@
     justify-content: center; 
     max-width: 800px; 
     margin: 40px auto; 
+
   }
   
-  .mother img {
+  .mother img {height:50px ;width: 50px;
     max-width: 100%; 
-    height: auto;
+    /* height: auto; */
     margin: 20px; 
   }
   
   .mother a {
     margin: 10px;
+    color: black;
   }
   
   .mother h3 {

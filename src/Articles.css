@@ -2,6 +2,7 @@
     text-align: center;
     border: 1px solid black;
     padding: 20px;
+    border: 1px solid black;
   }
   
   .Articles img {
@@ -28,7 +29,7 @@
     display: block;
   }
   .Articles a{
-    text-decoration: none;
+    /* text-decoration: none; */
     /* background-color: rgb(68, 219, 68); */
   color: black;
   /* display: flex; */

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './mother.css';
 
 const Mother = () => {
     return (
         <div className="mother">
-            <img src="image 2.jpg" alt="Placeholder 2" />
+            <img src="image 2.png" alt="Placeholder 2" />
             <div>
                 <a href="./"><img src="pic10.jpg" alt="Placeholder 2" /></a>
                 <a href="./"><img src="pic11.jpg" alt="Placeholder 2" /></a>

@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './navbar'; 
 import Articles from './Articles';
-import Main from './Main';
+import Main from './main';
 
 
-import Mother from './Mother';
+import Mother from './mother';
 
 const App = () => {
   return (
@@ -13,10 +13,10 @@ const App = () => {
       <Navbar />
       <Main />
       <Routes>
+
         <Route exact path="/Articles" element={<Articles />} />
-        {/* <Route exact path="/main" element={<Main />} />
-        <Route exact path="/mother" element={<Mother />} /> */}
-      </Routes>
+        <Route exact path="/mother" element={<Mother />} />
+        </Routes>
     </BrowserRouter>
   );
 };
