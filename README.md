@@ -1,3 +1,9 @@
+![Image Alt Text](images/Login.PNG)
+![Image Alt Text](images/details.PNG)
+![Image Alt Text](images/Signup.PNG)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
