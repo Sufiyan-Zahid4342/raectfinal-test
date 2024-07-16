@@ -1,6 +1,6 @@
 ![Image Alt Text](images/Login.PNG)
 ![Image Alt Text](images/details.PNG)
-![Image Alt Text](images/Signup.PNG)
+![Image Alt Text](images/signup.PNG)
 
 
 
