@@ -10,7 +10,7 @@ const Articles = () => {
             <h2>
                 Recent Blog
             </h2>
-            <div >
+            <div className="Articles1" >
                 <img src="image 2.png" alt="Placeholder 2" />
 
                 <h3><Link to="/mother">His mother has always taught him</Link></h3>
@@ -68,9 +68,9 @@ const Articles = () => {
                 <a href="./"><img src="pic11.jpg" alt="Placeholder 2" /></a>
                 <a href="./"><img src="pic12.jpg" alt="Placeholder 2" /></a>
             </div>
-            <button>
+            {/* <button>
                 <Link to="/mother">Sign in to continue</Link>
-            </button>
+            </button> */}
         </div>
     );
 };

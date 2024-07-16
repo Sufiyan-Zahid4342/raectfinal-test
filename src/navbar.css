@@ -1,77 +1,44 @@
-.navbar{
-    background-color: rgb(41, 183, 226);
-    display: block;flex-wrap: wrap;
-    height: 300px;
-  
-}
-.navbar h1{
-  
-  width:100px;
-  height:100px;
-  color:black;flex-wrap: wrap;
-}
-/* .navbar button{
-text-decoration: none;
-    margin:10px;
-color: black;
-padding: 10px;
-text-decoration: none; 
-
-}*/
-.navbar img{
-    justify-items: end;
-    text-align: end;
-    justify-content: end;
-    margin-left: 900px;
- margin-top: -200px;
-
-   
-}
-/* .navbar button Link{
-    justify-items: end; 
-}*/
-/* src/Navbar.css */
 .navbar {
-    background-color: rgb(41, 183, 226);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;flex-wrap: wrap;
-    /* background-color: #f8f9fa; */
-  }
-  
-  .navbar h1 {
-    /* margin: 10px; */
-    margin-left: 50px;
-  }
-  
-  .navbar button {flex-wrap: wrap;
-    /* background-color: #007bff; */
-    border: none;
-    /* color: white; */
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    cursor: pointer;
-    /* border-radius: 4px; */
-    display: inline;
-    width: 300px;
-    background-color: rgb(41, 183, 226);
-   margin-right: 800px;
-    margin-top: 8rem;
-    text-align: start;
-  }
-  
-  .navbar button a {
-    color: rgb(17, 10, 10);
-    text-decoration: none;
-    font-size: 25px;
-    flex-wrap: wrap;
+  background-color: rgb(41, 183, 226);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
 
+.navbar h1 {
+  margin-left: 50px;
+  margin-bottom: 0; 
+}
+
+
+.navbar button {
+  border: none;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%; 
+  max-width: 300px; 
+  background-color: rgb(41, 183, 226);
+  margin-top: 1rem; 
+  text-align: start;
+}
+
+.navbar button a {
+  color: rgb(17, 10, 10);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  /* .navbar button:hover {
-    background-color: #0056b3;
-  } */
-body{
-    flex-wrap: wrap;
+
+  .navbar button {
+    width: auto; 
+    margin-top: 0.5rem; 
+  }
 }

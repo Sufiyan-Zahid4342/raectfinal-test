@@ -1,37 +1,102 @@
 .Articles {
-    text-align: center;
-    border: 1px solid black;
-    padding: 20px;
-    border: 1px solid black;
-  }
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px; 
+  box-sizing: border-box; 
+}
+
+.Articles1, .Articles2, .Articles3 {
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: inline-block; 
+  align-items: center;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.Articles img {
+  display: block; 
+  height: 50px;
+  width: 50px;
+  margin: 20px auto;
   
-  .Articles img {
-    display: inline;height: 50px;
-    width: 50px;
-    margin: 0 auto;
-    align-self: center;
-  }
+}
+
+.Articles1 .images, .Articles2 .images, .Articles3 .images {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+}
+
+.Articles1 img, .Articles2 img, .Articles3 img {
+  height: 50px;
+  width: 50px;
+  margin: 20px auto;
+ 
+ 
+}
+
+button, .Articles a {
+  display: inline; 
+  margin: 10px;
   
-  .Articles2,.Articles3 {
-    border: 1px solid black;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .Articles2 img,.Articles3 img {
-    display: inline;
-    margin: 0 auto;
-    align-self: center;
-  }
-  
-  button {
-    margin: 20px auto;
-    display: block;
-  }
-  .Articles a{
-    /* text-decoration: none; */
-    /* background-color: rgb(68, 219, 68); */
+}
+
+.Articles a {
+  text-decoration: none;
   color: black;
-  /* display: flex; */
-  
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .Articles, .Articles1, .Articles2, .Articles3 {
+    padding: 15px;
+    margin: 15px auto;
   }
+
+  .Articles img, .Articles1 img, .Articles2 img, .Articles3 img {
+    height: 40px;
+    width: 40px;
+    
+  }
+
+  button, .Articles a {
+    margin: 5px;
+  }
+
+  .button-container {
+    gap: 5px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .Articles, .Articles1, .Articles2, .Articles3 {
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .Articles img, .Articles1 img, .Articles2 img, .Articles3 img {
+    height: 30px;
+    width: 30px;
+  }
+
+  button, .Articles a {
+    margin: 3px;
+  }
+
+  .button-container {
+    gap: 3px;
+  }
+}
